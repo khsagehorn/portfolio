@@ -60,9 +60,25 @@ section {
     text-decoration: none;
     cursor: pointer;
     border:none;
+
 }
 
 #continue {
   text-align: center;
   margin: auto;
+  display: none;
+}
+
+#fromtext {
+  display: none;
+}
+
+#dealtext {
+  display: none;
+}
+
+#dancer {
+  position: relative;
+  left: 100px;
+
 }
