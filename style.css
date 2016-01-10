@@ -1,51 +1,21 @@
-#wrap {
+body{
+    background-image: url("http://m6.22slides.com/blurryst/caroline-kraus-columbus-ohio-winter-photography-1382438.jpg");
+    background-color: #cccccc;
+    font-size: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     width: 800px;
     margin: 0 auto;
 }
 
 
-body{
-    background-image: url("http://m6.22slides.com/blurryst/caroline-kraus-columbus-ohio-winter-photography-1382438.jpg");
-    background-color: #cccccc;
-}
-
-body {
-    font-size: 100%;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-h1 {
-    font-size: 2.5em;
-    font-variant: small-caps;
-    text-align: center;
-    color: #283018;
-
-    background-image: url("http://cdn.defymedia.com/wp-content/uploads/2014/01/top-header-bg-blue.jpg");
-}
-
-h2 {
-    font-size: 1.875em;
-    text-align: center;
-    color: #283018;
-
-
-    background-image: url("http://www.3m.com/wps/wcm/connect/3a8fbe83-5c07-4a79-acbf-8f80f6ccf93b/1200x340_Mesh_Header_Orange-LightOrange.png?MOD=AJPERES&CACHEID=3a8fbe83-5c07-4a79-acbf-8f80f6ccf93b");
-
-}
-
 p {
     font-size: 0.875em;
     text-align: justify;
     color: #00394d;
+    display: none;
   
 }
 
-#nexttext {
-  margin: auto;
-  width: 380px;
-  padding: 10px;
-  display: none;
-}
 
 section {
   float: left;
@@ -54,29 +24,19 @@ section {
 
 }
 
-#button {
+form {
   color: #fff;
-    font-family: 'Oswald';
-    font-size: 20px;
-    text-decoration: none;
-    cursor: pointer;
-    border:none;
-
-}
-
-#continue {
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none; 
+  cursor: pointer;
+  border:none;
   text-align: center;
   margin: auto;
   display: none;
+
 }
 
-#fromtext {
-  display: none;
-}
-
-#dealtext {
-  display: none;
-}
 
 #drake {
   position: relative;
