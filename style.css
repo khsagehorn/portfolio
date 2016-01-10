@@ -40,10 +40,11 @@ p {
   
 }
 
-#center {
+#nexttext {
   margin: auto;
   width: 380px;
   padding: 10px;
+  display: none;
 }
 
 section {
@@ -77,8 +78,9 @@ section {
   display: none;
 }
 
-#dancer {
+#drake {
   position: relative;
   left: 100px;
+  display: none;
 
 }

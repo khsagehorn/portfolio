@@ -5,8 +5,9 @@ $( document ).ready(function(){
   });
   $ ( "#deal" ).click(function(){
      $("#dealtext").slideDown("slow");
-     $("#continue").show();
+     $("#continue").delay( 800 ).fadeIn( 400 );
     // console.log('clicked');
   });
+  $ ("#nexttext").slideDown("slow");
 
 });
