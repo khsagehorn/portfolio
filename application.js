@@ -7,6 +7,5 @@ $( document ).ready(function(){
      $("form").delay( 800 ).fadeIn( 400 );
     // console.log('clicked');
   });
-  // $ ("p:last").slideDown("slow");
 
 });
