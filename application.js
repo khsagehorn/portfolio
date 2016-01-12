@@ -1,13 +1,11 @@
 $( document ).ready(function(){
-  $ ( "#from" ).click(function(){
-     $("#fromtext").slideDown("slow");
+  $ ("section img").click(function(){
+     $("p:first").slideDown("slow");
+  });
+  $ ( "section img:last" ).click(function(){
+     $("p:last").slideDown("slow");
+     $("form").delay( 800 ).fadeIn( 400 );
     // console.log('clicked');
   });
-  $ ( "#deal" ).click(function(){
-     $("#dealtext").slideDown("slow");
-     $("#continue").delay( 800 ).fadeIn( 400 );
-    // console.log('clicked');
-  });
-  $ ("#nexttext").slideDown("slow");
 
 });
