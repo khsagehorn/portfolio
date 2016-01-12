@@ -37,6 +37,29 @@ form {
 
 }
 
+nav {
+  position: fixed;
+  bottom: 10px;
+  /*border: 1px solid;*/
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Helvetica;
+  border-right: 1px solid;
+  text-align: justify;
+}
+
+nav a:hover {
+  border-right: none;
+}
+
 
 #drake {
   position: relative;
